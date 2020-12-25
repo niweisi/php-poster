@@ -1,0 +1,22 @@
+{
+    "name": "niweisi/php-poster",
+    "description": "php gif poster,Eye Copy.Compress html.",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "niweisi",
+            "email": "paopian@ppblog.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-gd": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "niweisi\\Poster\\": "src/"
+        }
+    }
+}
